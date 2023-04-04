@@ -1,0 +1,170 @@
+body {
+    color: #0E2836;
+    margin: 0px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    margin: 0 auto 0 auto;
+    font-family: 'Alkatra', cursive;
+    font-size: 5rem;
+    color: #1C4C66;
+}
+
+h2 {
+    color: #1C4C66;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.3rem;
+    font-weight: normal;
+    margin-top: 60px;
+}
+
+#sub-head {
+    margin-top: 31px;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #3187B5;
+}
+
+a {
+    color: #3187B5;
+    margin: auto 20px;
+    text-decoration: none;   
+}
+
+a:hover {
+   color: #d3eefc; 
+}
+
+hr {
+    border-top: dotted #BDCDD6;
+    border-width: 10px 0 0 0;
+    width: 10%;
+}
+
+.top-container {
+    background-color: #AEE2FF;
+    position: relative;
+    padding-top: 100px;
+    height: 581px;
+}
+
+.middle-container {
+   margin-top: 25px;
+}
+
+
+.top-plane {
+    position: absolute;
+    right: 120px;
+    top: 10px;
+    height: 200px; 
+    width: 200px;
+    transform: scaleX(-1);
+}
+
+.world {
+    width: 400px; 
+    height: 340px; 
+    object-fit: cover; 
+    object-position: 100% 0;
+}
+
+.bottom-plane {
+    position: absolute;
+    left: 120px;
+    bottom: 150px;
+    height: 200px; 
+    width: 200px;
+}
+
+.profile {
+    width: 35%;
+    margin: 80px auto 80px auto;
+    text-align: center;
+    line-height: 2; 
+}
+
+.skill-row {
+    width: 50%;
+    margin: 80px auto 80px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.hardskills-img {
+    float: left;
+    margin-right: 30px;
+    width: 30%;
+    padding-bottom: 50px;
+}
+
+.softskills-img {
+    float: right;
+    margin-left: 30px;
+    margin-top: 50px;
+    width: 30%;
+    padding-bottom: 80px;
+}
+
+.profilepicture {
+    height: 175px;
+    width: 175px;
+    border-radius: 50%;
+}
+
+.btn {
+    background: #3187B5;
+    background-image: -webkit-linear-gradient(top, #3187B5, #1C4C66);
+    background-image: -moz-linear-gradient(top, #3187B5, #1C4C66);
+    background-image: -ms-linear-gradient(top, #3187B5, #1C4C66);
+    background-image: -o-linear-gradient(top, #3187B5, #1C4C66);
+    background-image: linear-gradient(to bottom, #3187B5, #1C4C66);
+    -webkit-border-radius: 9;
+    -moz-border-radius: 9;
+    border-radius: 9px;
+    font-family: 'Montserrat', sans-serif;
+    color: #d3eefc;
+    font-size: 16px;
+    padding: 10px 20px 10px 20px;
+    border: solid #1f628d 1px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #4f9abf;
+    background-image: -webkit-linear-gradient(top, #4f9abf, #377291);
+    background-image: -moz-linear-gradient(top, #4f9abf, #377291);
+    background-image: -ms-linear-gradient(top, #4f9abf, #377291);
+    background-image: -o-linear-gradient(top, #4f9abf, #377291);
+    background-image: linear-gradient(to bottom, #4f9abf, #377291);
+    text-decoration: none;
+  }
+
+
+.contact-me {
+    width: 35%;
+    margin: 80px auto 80px auto;
+    text-align: center;
+    line-height: 2; 
+}
+
+.bottom-container {
+    background-color: #1C4C66;
+    padding-top: 30px;
+    padding-bottom: 10px; 
+}
+
+#contact-p {
+    margin-bottom: 50px;
+}
+
+#copy-right {
+    padding: 20px 0;
+    color: #AEE2FF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.75rem;
+}
