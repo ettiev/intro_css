@@ -110,6 +110,13 @@ hr {
     padding-bottom: 80px;
 }
 
+.faith-img {
+    float: left;
+    margin-right: 30px;
+    width: 30%;
+    padding-bottom: 50px;
+}
+
 .profilepicture {
     height: 175px;
     width: 175px;
